@@ -1,0 +1,19 @@
+{
+  "name": "stacks-testnet-wallet-generator",
+  "version": "1.0.0",
+  "description": "Minimal Stacks testnet wallet generator for development",
+  "type": "module",
+  "main": "wallet.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node wallet.js",
+    "test": "node test.js"
+  },
+  "keywords": ["stacks", "wallet", "testnet", "blockchain"],
+  "dependencies": {
+    "@stacks/wallet-sdk": "^6.13.0",
+    "@stacks/transactions": "^6.13.0"
+  }
+}
